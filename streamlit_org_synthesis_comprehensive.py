@@ -639,6 +639,7 @@ def main():
                     if 'mechanism' in pathway:
                         st.write(f"*Mechanism:* {pathway['mechanism']}")
                     st.write("*Reagents:* " + ", ".join(pathway.get('reagents', [])))
+st.info("developed by Subramanian Ramajayam")
 
 if __name__ == "__main__":
     main()
