@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="🧪",
     layout="wide"
 )
-
+st.markdown("[LLM ASSISTANT](https://askllm-f23pmnutgwtt9mvchcnunw.streamlit.app/)")
 # Title and description
 st.title("🧪 Organic Synthesis Reaction Database")
 st.markdown("Explore various organic synthesis reactions with detailed information.")
